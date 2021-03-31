@@ -1,3 +1,7 @@
+## Como Executar
+
+>>descrever
+
 ## Produtor-Consumidor Sem Sempahore
 
 <img src="https://j.gifs.com/L7X3L4.gif" width="900" heigth="650"/>
