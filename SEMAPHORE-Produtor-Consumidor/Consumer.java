@@ -23,11 +23,11 @@ public class Consumer extends Thread {
                        while (a.itemCount == 0)
                            sleep(100);
                        int item;
-                       a.s.down();
-                       a.s1.down();
+                       a.itens.down();//verifica se tem itens que podem ser consumidos
+                       a.mutex.down();//se tiver entra na região crítica
                        item = (Integer) a.buffer.get(0);
                        a.buffer.remove(0);
-                       a.s1.up();
+                       a.mutex.up();
                        a.itemCount--;
                        System.out.println("consumer: consuming item "+item);
                        for (int i =0;i<10000;i++);

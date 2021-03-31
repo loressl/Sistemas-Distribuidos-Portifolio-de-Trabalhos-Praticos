@@ -25,11 +25,11 @@ public class Producer extends Thread {
                        while (a.itemCount == 10)
                            sleep(100);
                        contador ++;
-                       a.s1.down();
+                       a.mutex.down();
                        a.buffer.add(contador);
                        a.itemCount++;
-                       a.s.up();
-                       a.s1.up();
+                       a.itens.up();
+                       a.mutex.up();
                        System.out.println("produtor: producing item "+contador);
                        for (int i =0;i<10000;i++);
                    }

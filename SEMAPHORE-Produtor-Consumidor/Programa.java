@@ -14,8 +14,8 @@ public class Programa {
     int itemCount;
     ArrayList buffer;
 
-    Semaphore s = new Semaphore(0);
-    Semaphore s1 = new Semaphore(1);
+    Semaphore itens = new Semaphore(0);
+    Semaphore mutex = new Semaphore(1);
 
     Programa() {
         itemCount = 0;
@@ -31,15 +31,24 @@ public class Programa {
 
     public void run() {
         Consumer c = new Consumer(this);
-        Producer p = new Producer(this);
-        c.start();
-        p.start();
         Consumer c1 = new Consumer(this);
-        Producer p1 = new Producer(this);
-        c1.start();
-        //p1.start();
         Consumer c2 = new Consumer(this);
+        Consumer c3 = new Consumer(this);
+        Consumer c4 = new Consumer(this);
+        Consumer c5 = new Consumer(this);
+
+        Producer p = new Producer(this);
+        Producer p1 = new Producer(this);
+
+        p.start();
+        p1.start();
+
+        c.start();
+        c1.start();
         c2.start();
+        c3.start();
+        c4.start();
+        c5.start();
 
     }
 
