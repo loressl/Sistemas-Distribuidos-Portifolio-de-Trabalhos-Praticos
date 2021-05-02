@@ -11,4 +11,4 @@
     - Para rodar aperte Run.
 - Ir para o console do RmiClient para digitar os números e a operação.
 
-<img src="videos/calculator_rmi.gif" width="900px" height="500px"/>
+<img src="videos/calculator_rmi.gif" width="900px" height="650px"/>
