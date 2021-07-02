@@ -19,4 +19,4 @@
 >     - Consumidor escolhido: aperta enter para consumir a mensagem do buffer
 >   - Para finalizar, clicar no símbolo de stop no console
 
-<img src="screen/RMI.gif" width="1000px" height="700px"/>
+<img src="screen/RMI.gif" width="800px" height="600px"/>
