@@ -18,3 +18,5 @@
 >     - Produtor escolhido: digita a mensagem para armazenar no buffer
 >     - Consumidor escolhido: aperta enter para consumir a mensagem do buffer
 >   - Para finalizar, clicar no símbolo de stop no console
+
+<img src="screen/RMI.gif" width="900px" height="650px"/>

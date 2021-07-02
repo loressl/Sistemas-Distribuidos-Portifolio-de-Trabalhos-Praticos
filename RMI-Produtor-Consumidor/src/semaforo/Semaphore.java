@@ -17,6 +17,7 @@ public class Semaphore {
             try {
                 wait();
             } catch (InterruptedException _ex) {
+            	_ex.printStackTrace();
             	//Thread.currentThread().interrupt();
             }
         count--;

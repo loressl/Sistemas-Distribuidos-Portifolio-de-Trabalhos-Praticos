@@ -1,11 +1,9 @@
 package rmi;
 
-import java.rmi.*;
 import java.rmi.registry.*;
 import java.util.Scanner;
 
 public class RmiClient {
-	@SuppressWarnings("removal")
 	static public void main(String args[]) {
 		ReceiveMessageInterface rmiServer;
 		Registry registry;
@@ -28,11 +26,13 @@ public class RmiClient {
 			String output = process.substring(0, 1).toUpperCase() + process.substring(1);
 			System.out.println(output + " selecionado.");
 			
-			if (process.equalsIgnoreCase("Produtor")) //Caso seja produtor
-				System.out.println("Digite para produzir");
+			if (process.equalsIgnoreCase("Produtor"))
+				System.out.println("\nDigite algo para produzir");
+			else
+				System.out.println("\nAperte ENTER para consumir");
 			System.out.println("Digitar /q terminara o processo");
 			registry = LocateRegistry.getRegistry(serverAddress, 
-					(new Integer(serverPort)).intValue());
+					(Integer.valueOf(serverPort)).intValue());
 			rmiServer = (ReceiveMessageInterface) (registry.lookup("rmiServer"));
 			
 			while (inputClient.hasNextLine()) {
@@ -43,11 +43,9 @@ public class RmiClient {
 				}
 				rmiServer.receiveMessage(process + ": " +input);
 			}
-		} catch (RemoteException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
-		} catch (NotBoundException e) {
-			e.printStackTrace();
-		}
+		} 
 		inputClient.close();
 	}
 }
