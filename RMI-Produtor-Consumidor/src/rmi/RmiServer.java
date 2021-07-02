@@ -1,13 +1,13 @@
 package rmi;
 
-import java.net.InetAddress;
-import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
+import java.rmi.*;
+import java.rmi.registry.*;
+import java.rmi.server.*;
+import java.net.*;
 
 import semaforo.PC;
 
-public class RmiServer extends java.rmi.server.UnicastRemoteObject implements ReceiveMessageInterface {
+public class RmiServer extends UnicastRemoteObject implements ReceiveMessageInterface {
 
 	private static final long serialVersionUID = 7111078431122519129L;
 	int thisPort;

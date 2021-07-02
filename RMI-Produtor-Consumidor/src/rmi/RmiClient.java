@@ -1,12 +1,11 @@
 package rmi;
 
-import java.rmi.NotBoundException;
-import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
+import java.rmi.*;
+import java.rmi.registry.*;
 import java.util.Scanner;
 
 public class RmiClient {
+	@SuppressWarnings("removal")
 	static public void main(String args[]) {
 		ReceiveMessageInterface rmiServer;
 		Registry registry;
