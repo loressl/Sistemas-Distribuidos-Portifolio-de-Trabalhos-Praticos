@@ -17,7 +17,7 @@
 >   - Conectado, aparecerá no console duas opções para escolher: Produtor e/ou Consumidor
 >     - Produtor escolhido: digita a mensagem para armazenar no buffer
 >     - Consumidor escolhido: aperta enter para consumir a mensagem do buffer
->   - Para finalizar, clicar no símbolo de stop no console
+>   - Observar as informações no console para sair
 
 ## Demonstração do projeto rodando
 
