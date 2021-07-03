@@ -20,6 +20,6 @@
 >   - Observar as informações no console para sair
 
 
-## Demonstração do projeto rodando
+## Demonstração da aplicação
 
 <img src="screen/socket.gif" width="850px" height="600px"/>
