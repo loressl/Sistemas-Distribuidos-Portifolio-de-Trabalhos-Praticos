@@ -19,6 +19,6 @@
 >     - Consumidor escolhido: aperta enter para consumir a mensagem do buffer
 >   - Observar as informações no console para sair
 
-## Demonstração do projeto rodando
+## Demonstração da aplicação
 
 <img src="screen/RMI.gif" width="850px" height="600px"/>
