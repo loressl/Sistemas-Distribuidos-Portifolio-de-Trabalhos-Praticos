@@ -20,6 +20,6 @@
 
 ## Equipe
 
-- :raising_hand_man: Igor Alexandre Lima
+- :raising_hand_man: Igor Alexandre de Lima
 - :raising_hand_man: Jônatas Silva Santos
 - :raising_hand_woman: Lorena Souza Santana Lima
