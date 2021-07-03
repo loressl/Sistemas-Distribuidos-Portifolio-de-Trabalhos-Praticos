@@ -9,6 +9,11 @@
 
 ## Atividades
 
-- SEMAPHORE-PRODUTOR-CONSUMIDOR
-- CALCULADORA-RMI
-- CALCULADORA-SOCKETS
+- RMI-PRODUTOR-CONSUMIDOR
+- SOCKETS-PRODUTOR-CONSUMIDOR
+
+## Equipe
+
+- :raising_hand_man: Igor Alexandre Lima
+- :raising_hand_man: Jônatas Santos Silva
+- :raising_hand_woman: Lorena Souza Santana Lima Lima
