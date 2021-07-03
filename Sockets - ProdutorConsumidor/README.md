@@ -18,3 +18,8 @@
 >     - Produtor escolhido: digita a mensagem para armazenar no buffer
 >     - Consumidor escolhido: aperta enter para consumir a mensagem do buffer
 >   - Observar as informações no console para sair
+
+
+## Demonstração do projeto rodando
+
+<img src="screen/socket.gif" width="850px" height="600px"/>
