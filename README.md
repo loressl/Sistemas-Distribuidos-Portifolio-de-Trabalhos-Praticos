@@ -1,4 +1,10 @@
-# Sistemas Distríbuidos- Portifólio de Trabalhos Práticos
+# :school: Instituto Federal de Educação, Ciência e Tecnologia da Bahia - Campus Salvador
+
+## Trabalho realizado para a máteria de Sistemas Distríbuidos.
+
+## Professor
+
+- :teacher: Allan Edgard Silva Freitas 
 
 ## Primeiros passos
 
