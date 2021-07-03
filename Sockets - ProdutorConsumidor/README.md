@@ -16,5 +16,5 @@
 >   - Pode rodar quantas vezes desejar
 >   - Conectado, aparecerá no console duas opções para escolher: Produtor e/ou Consumidor. 
 >     - Produtor escolhido: digita a mensagem para armazenar no buffer
->     - Consumidor escolhido: irá esperar até o produtor "produzir" algo para consumir
+>     - Consumidor escolhido: aperta enter para consumir a mensagem do buffer
 >   - Observar as informações no console para sair
