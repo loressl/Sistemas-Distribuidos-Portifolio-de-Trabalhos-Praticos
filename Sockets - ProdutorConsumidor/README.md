@@ -22,4 +22,7 @@
 
 ## Demonstração da aplicação
 
+
+* OBS: O vídeo deste gif encontra-se no folder screen, para uma melhor visualização.
+
 <img src="screen/socket.gif" width="850px" height="600px"/>
